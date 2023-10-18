@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #e0e8f5;
+}
+.sidebar {
+  width: 150px; /* Ajusta el ancho de tu barra lateral según tus necesidades */
+  float: left; /* Esto hace que la barra lateral flote a la izquierda */
+}
+
+& .logo__details {
+  padding: 10px; /* Añade un espacio alrededor del logo si es necesario */
+
+  &.logo__details img {
+    max-width: 100%; /* Asegura que la imagen del logo no se desborde de su contenedor */
+  }
+}
+/* Gradient in Hex */
+& .nav__links{
+  background: 
+  linear-gradient(to right, #FAFCFF 0%, 28.251893798612006%, #BFD3F6 43.82665576451349%, 72.96133803590388%, #E6DDEC 100%);
+  
+  /* Gradient in RGBA */
+  linear-gradient(to right, rgba(250, 252, 255, 1) 0%, 28.251893798612006%, rgba(191, 211, 246, 1) 43.82665576451349%, 72.96133803590388%, rgba(230, 221, 236, 1) 100%);
+  ;
+  height: 100%;
+  padding-top: 30px;
+}
+
+& .nav__links li{
+  position: relative;
+  list-style: none;
+}
+
+& .nav__links li .ionicon__link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+& .nav__links li i{
+  height: 50px;
+  max-width: 78px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+
+}
+
+& .nav__links li a{
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+}
+
+& .nav__links li a .link__name{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+& .nav__links li .sub__menu{
+  padding: 6px 6px 14px 80px;
+  margin-top: -10px;
+}
+  
+  
+
